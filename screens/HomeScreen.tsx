@@ -6,6 +6,8 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 const HomeScreen = () => {
 
   const navigation: any = useNavigation();
+
+  //TODO: Show all of the images that are in your memories (try do it real time listening)
   
   return (
     <ScrollView style={styles.container}>
